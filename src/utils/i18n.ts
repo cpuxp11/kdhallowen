@@ -61,7 +61,7 @@ export const translations: Record<Language, Translations> = {
     landing: {
       badge: 'ORIGINAL',
       title1: 'HALLOWEEN',
-      title2: 'HUNTER',
+      title2: 'HUNTERS',
       subtitle: 'K-pop Demon Hunters Halloween Prep Type Test',
       description: 'Discover which legendary K-pop demon hunter matches your personality in this Halloween special quiz.',
       startButton: 'Start Quiz',
@@ -111,7 +111,7 @@ export const translations: Record<Language, Translations> = {
     landing: {
       badge: '오리지널',
       title1: '할로윈',
-      title2: '헌터',
+      title2: '헌터스',
       subtitle: 'K-pop Demon Hunters 할로윈 준비 유형 테스트',
       description: '할로윈 스페셜 퀴즈로 당신의 성격과 맞는 전설적인 K-pop 데몬 헌터를 찾아보세요.',
       startButton: '퀴즈 시작',

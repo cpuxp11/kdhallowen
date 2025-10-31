@@ -37,15 +37,15 @@ export function NetflixNav({ onLogoClick, language, onLanguageChange }: NetflixN
           onClick={onLogoClick}
           className="text-[#E50914] hover:text-[#f6121d] transition-colors"
         >
-          <span 
+          <span
             className="text-2xl md:text-3xl tracking-wider"
-            style={{ 
+            style={{
               fontFamily: 'Bebas Neue, Impact, Arial Black, sans-serif',
               fontWeight: 900,
               letterSpacing: '0.15em'
             }}
           >
-            HALLOWEEN HUNTER
+            HALLOWEEN HUNTERS
           </span>
         </button>
 
