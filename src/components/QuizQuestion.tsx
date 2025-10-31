@@ -55,32 +55,32 @@ export function QuizQuestion({
         )}
 
         {/* Question */}
-        <div className="text-center space-y-6">
-          <div className="text-7xl mb-6">{question.emoji}</div>
+        <div className="text-center space-y-4">
+          <div className="text-6xl md:text-7xl mb-4">{question.emoji}</div>
           <h2
             lang={language}
-            className="text-3xl md:text-4xl text-white"
+            className="text-2xl md:text-4xl text-white px-2"
           >
             {question.text[language]}
           </h2>
         </div>
 
         {/* Options - Netflix cards style */}
-        <div className="space-y-4">
+        <div className="space-y-3">
           {/* Option A */}
           <button
             onClick={() => handleSelect(question.optionA.score)}
             disabled={selectedOption !== null}
-            className={`group relative w-full p-8 rounded-lg transition-all duration-300 text-left ${
+            className={`group relative w-full p-5 md:p-8 rounded-lg transition-all duration-300 text-left ${
               selectedOption === question.optionA.score
                 ? 'bg-zinc-700 scale-[1.02]'
                 : 'bg-zinc-900 hover:bg-zinc-800 hover:scale-[1.02]'
             } disabled:opacity-50`}
           >
-            <div className="flex items-center gap-6">
-              <div className="text-5xl flex-shrink-0">{question.optionA.emoji}</div>
+            <div className="flex items-center gap-4 md:gap-6">
+              <div className="text-4xl md:text-5xl flex-shrink-0">{question.optionA.emoji}</div>
               <div className="flex-1">
-                <div lang={language} className="text-2xl text-white">
+                <div lang={language} className="text-lg md:text-2xl text-white">
                   {question.optionA.label[language]}
                 </div>
               </div>
@@ -95,16 +95,16 @@ export function QuizQuestion({
           <button
             onClick={() => handleSelect(question.optionB.score)}
             disabled={selectedOption !== null}
-            className={`group relative w-full p-8 rounded-lg transition-all duration-300 text-left ${
+            className={`group relative w-full p-5 md:p-8 rounded-lg transition-all duration-300 text-left ${
               selectedOption === question.optionB.score
                 ? 'bg-zinc-700 scale-[1.02]'
                 : 'bg-zinc-900 hover:bg-zinc-800 hover:scale-[1.02]'
             } disabled:opacity-50`}
           >
-            <div className="flex items-center gap-6">
-              <div className="text-5xl flex-shrink-0">{question.optionB.emoji}</div>
+            <div className="flex items-center gap-4 md:gap-6">
+              <div className="text-4xl md:text-5xl flex-shrink-0">{question.optionB.emoji}</div>
               <div className="flex-1">
-                <div lang={language} className="text-2xl text-white">
+                <div lang={language} className="text-lg md:text-2xl text-white">
                   {question.optionB.label[language]}
                 </div>
               </div>
