@@ -76,9 +76,9 @@ export default function App() {
     <div className="relative min-h-screen bg-[#141414]">
       <HalloweenBackground />
       
-      {/* Netflix Navigation - Show on all pages except quiz */}
-      {gameState !== "quiz" && gameState !== "loading" && (
-        <NetflixNav 
+      {/* Netflix Navigation - Show on all pages except loading */}
+      {gameState !== "loading" && (
+        <NetflixNav
           onLogoClick={handleBackToLanding}
           language={language}
           onLanguageChange={handleLanguageChange}

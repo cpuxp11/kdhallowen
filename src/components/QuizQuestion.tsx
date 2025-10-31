@@ -55,14 +55,11 @@ export function QuizQuestion({
                 : 'bg-zinc-900 hover:bg-zinc-800 hover:scale-[1.02]'
             } disabled:opacity-50`}
           >
-            <div className="flex items-start gap-6">
+            <div className="flex items-center gap-6">
               <div className="text-5xl flex-shrink-0">{question.optionA.emoji}</div>
               <div className="flex-1">
-                <div lang={language} className="text-2xl text-white mb-2">
+                <div lang={language} className="text-2xl text-white">
                   {question.optionA.label[language]}
-                </div>
-                <div lang={language} className="text-lg text-gray-400">
-                  {question.optionA.description[language]}
                 </div>
               </div>
             </div>
@@ -82,14 +79,11 @@ export function QuizQuestion({
                 : 'bg-zinc-900 hover:bg-zinc-800 hover:scale-[1.02]'
             } disabled:opacity-50`}
           >
-            <div className="flex items-start gap-6">
+            <div className="flex items-center gap-6">
               <div className="text-5xl flex-shrink-0">{question.optionB.emoji}</div>
               <div className="flex-1">
-                <div lang={language} className="text-2xl text-white mb-2">
+                <div lang={language} className="text-2xl text-white">
                   {question.optionB.label[language]}
-                </div>
-                <div lang={language} className="text-lg text-gray-400">
-                  {question.optionB.description[language]}
                 </div>
               </div>
             </div>
