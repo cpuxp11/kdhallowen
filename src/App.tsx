@@ -38,13 +38,20 @@ export default function App() {
     } else {
       // Quiz complete
       setGameState("loading");
-      
+
       // Calculate result
       setTimeout(() => {
         const mbtiType = calculateMBTI(newAnswers);
         setResult(mbtiType);
         setGameState("result");
       }, 2000);
+    }
+  };
+
+  const handlePreviousQuestion = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex(currentQuestionIndex - 1);
+      setAnswers(answers.slice(0, -1));
     }
   };
 
@@ -100,6 +107,8 @@ export default function App() {
             questionNumber={currentQuestionIndex + 1}
             totalQuestions={questions.length}
             onAnswer={handleAnswer}
+            onPrevious={handlePreviousQuestion}
+            canGoBack={currentQuestionIndex > 0}
             language={language}
           />
         )}

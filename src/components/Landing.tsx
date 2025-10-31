@@ -65,13 +65,6 @@ export function Landing({ onStart, onViewGallery, language }: LandingProps) {
               {t.landing.startButton}
             </span>
           </button>
-
-          <button
-            onClick={onViewGallery}
-            className="px-12 py-4 bg-zinc-800 hover:bg-zinc-700 text-white text-xl rounded transition-all transform hover:scale-105"
-          >
-            {t.landing.moreInfoButton}
-          </button>
         </div>
 
         {/* Info tags */}

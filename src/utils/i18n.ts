@@ -22,6 +22,7 @@ export interface Translations {
   };
   quiz: {
     of: string;
+    back: string;
   };
   result: {
     yourResult: string;
@@ -73,6 +74,7 @@ export const translations: Record<Language, Translations> = {
     },
     quiz: {
       of: 'of',
+      back: 'Back',
     },
     result: {
       yourResult: 'YOUR RESULT',
@@ -122,6 +124,7 @@ export const translations: Record<Language, Translations> = {
     },
     quiz: {
       of: '/',
+      back: '이전',
     },
     result: {
       yourResult: '당신의 결과',
