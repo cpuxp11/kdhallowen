@@ -5,7 +5,8 @@
 
   export default defineConfig({
     // GitHub Pages 배포를 위한 기본 경로 설정 (repo 이름과 동일)
-    base: '/kdhallowen/',
+    // 개발 환경에서는 '/', 프로덕션에서는 '/kdhallowen/'
+    base: process.env.NODE_ENV === 'production' ? '/kdhallowen/' : '/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
