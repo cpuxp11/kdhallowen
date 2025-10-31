@@ -4,6 +4,8 @@
   import path from 'path';
 
   export default defineConfig({
+    // GitHub Pages 배포를 위한 기본 경로 설정 (repo 이름과 동일)
+    base: '/kdhallowen/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -52,7 +54,8 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      // GitHub Pages 기본 워크플로우가 dist를 사용하므로 dist로 변경
+      outDir: 'dist',
     },
     server: {
       port: 3000,
