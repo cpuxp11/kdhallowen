@@ -64,38 +64,6 @@ export const characters: Record<string, Character> = {
       en: "Goes full Halloween mode from October 1st! Brainstorms different costume ideas daily, then panic-mixes everything on the last day. House decorations are over-the-top spectacular, but somehow eats all the candy before trick-or-treaters arrive. Invites everyone to 'THE ULTIMATE HALLOWEEN BASH' and live-posts the entire night on social media."
     }
   },
-  INFP: {
-    mbti: "INFP",
-    name: {
-      ko: "터미",
-      en: "Temi"
-    },
-    role: {
-      ko: "감성 힐러",
-      en: "Emotion Healer"
-    },
-    imagePath: "",
-    bio: {
-      ko: "악마도 사연이 있다고 믿는 사람. 전투를 힐링으로 바꾸는 마법사.",
-      en: "Believes every demon has a backstory. Turns fights into therapy sessions."
-    },
-    traits: {
-      ko: ["공감왕", "이상주의자", "창의력甲", "깊은생각러"],
-      en: ["Empathy King", "Dreamer", "Creative Soul", "Deep Thinker"]
-    },
-    quote: {
-      ko: "악마한테도 다 사연 있어. 들어봐야지.",
-      en: "Every demon's got a story. I'm all ears."
-    },
-    hunterRole: {
-      ko: "감정 연금술사",
-      en: "Feelings Alchemist"
-    },
-    halloweenBehavior: {
-      ko: "한 달 전부터 밤샘하며 손수 유령 코스튬 만들다가 '이거 너무 무서우면 애들 울까?' 고민하며 귀여운 리본 추가함. 사탕 나눠줄 때 '건강한 간식도 있어~' 하며 과일젤리도 준비. 무서운 장식 대신 따뜻한 조명과 호박 캔들로 집 꾸밈. 할로윈의 어두운 의미에 대해 깊이 생각하다가 새벽 3시에 일기 씀.",
-      en: "Spends a month hand-crafting a ghost costume, then worries 'What if it scares little kids?' and adds cute ribbons. Preps candy plus 'healthier options' like fruit snacks. Decorates with warm fairy lights and pumpkin candles instead of scary stuff. Gets philosophical about Halloween's deeper meaning and journals about it at 3 AM."
-    }
-  },
   ENFJ: {
     mbti: "ENFJ",
     name: {
@@ -190,70 +158,6 @@ export const characters: Record<string, Character> = {
     halloweenBehavior: {
       ko: "할로윈 코스튬? 그건 예술이 아니라 실험임! 아무도 안 한 독창적인 컨셉 찾다가 '양자역학 호박'이라는 정체불명 코스튬 등장. 집에 정교한 장치 만들어서 사탕 받으려면 퀴즈 풀게 만듦 ㅋㅋ '재밌잖아~' 하는데 애들은 당황. 파티에서 할로윈 전통에 대해 논쟁 시작하다가 분위기 메이커 됨.",
       en: "Halloween costume? That's not fashion, it's EXPERIMENTATION! Searches for concepts no one's tried and shows up as 'Quantum Pumpkin' or something equally baffling. Rigs an elaborate contraption so trick-or-treaters must solve puzzles for candy. 'It's fun!' Kids are confused. At parties, starts debates about Halloween traditions and somehow becomes the entertainment."
-    }
-  },
-  INTP: {
-    mbti: "INTP",
-    name: {
-      ko: "미스터리",
-      en: "Mystery"
-    },
-    role: {
-      ko: "암호 해독가",
-      en: "Code Breaker"
-    },
-    imagePath: "",
-    bio: {
-      ko: "고대 악마 언어 해독한 전설. 분석력으로 수백년 된 괴물 약점 찾아냄.",
-      en: "Decoded ancient demon language. Analytical brain finds weaknesses in centuries-old monsters."
-    },
-    traits: {
-      ko: ["논리왕", "호기심甲", "독립적", "정확도MAX"],
-      en: ["Logic Master", "Curious AF", "Independent", "Precision King"]
-    },
-    quote: {
-      ko: "악마는 그냥 풀리지 않은 퍼즐이야.",
-      en: "Demons are just puzzles waiting to be solved."
-    },
-    hunterRole: {
-      ko: "패턴 분석가",
-      en: "Pattern Decoder"
-    },
-    halloweenBehavior: {
-      ko: "할로윈? 걍 집에서 호러 영화 보면서 '이 괴물 설정 논리적으로 말이 안 되는데' 하며 분석함. 코스튬 준비 귀찮아서 후드티에 '이거 코스튬임' 쪽지 붙임 ㅋㅋ 친구가 파티 오라고 하면 30분만 있다가 '사람 많아서 피곤하다' 하며 탈출. 근데 집에서 할로윈 사탕 배분 최적화 알고리즘 짜고 있음.",
-      en: "Halloween? Just staying home watching horror movies and muttering 'This monster's logic makes no sense.' Too lazy for costumes—wears a hoodie with a note: 'This IS my costume' lol. If dragged to a party, stays 30 minutes then escapes: 'Too many people.' But at home, secretly codes an algorithm for optimal candy distribution efficiency."
-    }
-  },
-  ENTJ: {
-    mbti: "ENTJ",
-    name: {
-      ko: "아펙스",
-      en: "Apex"
-    },
-    role: {
-      ko: "사령관",
-      en: "Commander"
-    },
-    imagePath: "",
-    bio: {
-      ko: "최대 규모 악마 사냥 길드 수장. 전략과 결단력으로 수많은 생명 구함.",
-      en: "Leads the biggest demon hunting guild. Strategic mind + decisive action = lives saved."
-    },
-    traits: {
-      ko: ["전략가", "결단력甲", "자신감MAX", "야망덩어리"],
-      en: ["Strategist", "Decisive AF", "Confidence MAX", "Ambitious"]
-    },
-    quote: {
-      ko: "승리는 운이 아니야. 계획이지.",
-      en: "Victory isn't luck. It's all about the plan."
-    },
-    hunterRole: {
-      ko: "최고 전략가",
-      en: "Master Strategist"
-    },
-    halloweenBehavior: {
-      ko: "할로윈도 프로젝트임! 2개월 전부터 엑셀로 예산 짜고 타임라인 관리. '올해 목표: 작년보다 20% 더 무서운 집 만들기' 선언하고 팀 모집해서 역할 분담. 코스튬은 당연히 리더 포지션으로 선택. 사탕 효율성 계산해서 대량 구매하고, 파티 끝나면 'Next year we'll dominate' 하며 이미 내년 기획 시작함.",
-      en: "Halloween is a PROJECT! Budget spreadsheets 2 months early with detailed timelines. Goal: 'Make haunted house 20% scarier than last year.' Recruits a team and assigns roles. Costume choice? Obviously a leadership position. Bulk-buys candy for maximum efficiency. After the party: 'Next year we'll dominate harder' and already planning next Halloween."
     }
   },
   INTJ: {
@@ -355,7 +259,7 @@ export const characters: Record<string, Character> = {
   ESFJ: {
     mbti: "ESFJ",
     name: {
-      ko: "바비",
+      ko: "애비",
       en: "Abby"
     },
     role: {
@@ -382,70 +286,6 @@ export const characters: Record<string, Character> = {
     halloweenBehavior: {
       ko: "동네 엄마 역할 자처! 2주 전부터 단체 코스튬 조율하고 '다들 뭐 입을 거야~?' 물어봄. 알레르기 고려해서 사탕 여러 종류 준비하고, 애들 안전하게 다니는지 체크. 파티에선 음식 준비하고 설거지까지 도맡아 함 ㅋㅋ '다들 재밌게 놀았으면 좋겠어!' 하며 뿌듯해하고, 다음날 단체 채팅에 '어제 재밌었지?' 인증샷 올림.",
       en: "Neighborhood mom energy ACTIVATED! Two weeks early, coordinates group costumes asking 'What's everyone wearing~?' Prepares multiple candy types for allergies, monitors kids' safety routes. At parties, handles food prep AND dishes lol. 'I hope everyone had fun!' with genuine satisfaction. Next day: posts group photos in the chat 'Wasn't yesterday great?'"
-    }
-  },
-  ISFJ: {
-    mbti: "ISFJ",
-    name: {
-      ko: "셀리",
-      en: "Shelly"
-    },
-    role: {
-      ko: "조용한 수호자",
-      en: "Silent Guardian"
-    },
-    imagePath: "",
-    bio: {
-      ko: "조용하지만 흔들림 없음. 약자 보호로 전설 됨. 구한 사람 전부 기억함.",
-      en: "Quiet but unshakeable. Protecting innocents made them a legend. Remembers everyone saved."
-    },
-    traits: {
-      ko: ["믿음직", "인내왕", "따뜻함", "디테일甲"],
-      en: ["Reliable", "Patient AF", "Caring", "Detail Master"]
-    },
-    quote: {
-      ko: "다들 편하게 자라고 내가 싸우는 거야.",
-      en: "I fight so everyone else can sleep peacefully."
-    },
-    hunterRole: {
-      ko: "무명 수호자",
-      en: "Nameless Guardian"
-    },
-    halloweenBehavior: {
-      ko: "매년 같은 코스튬 입음 ㅋㅋ '이게 편하고 좋은데?' 하며 전통 유지. 사탕은 한 달 전부터 조금씩 사모아서 완벽하게 준비. 동네 애들 이름 다 외우고 '작년보다 컸네~' 따뜻하게 인사. 파티는 조용히 구석에서 설거지 돕고, 다 끝나면 '수고했어' 한마디 남기고 조용히 퇴장. 진짜 MVP인데 존재감은 없음.",
-      en: "Wears the SAME costume every year lol. 'It's comfortable and reliable' maintains the tradition. Stockpiles candy a month ahead for perfect prep. Remembers every neighborhood kid's name: 'You grew since last year~' with warmth. At parties, quietly helps with dishes in the corner. When done: simple 'Good work everyone' and slips away. True MVP with zero fanfare."
-    }
-  },
-  ESTP: {
-    mbti: "ESTP",
-    name: {
-      ko: "매디",
-      en: "Maddy"
-    },
-    role: {
-      ko: "아드레날린 중독자",
-      en: "Adrenaline Junkie"
-    },
-    imagePath: "",
-    bio: {
-      ko: "위험한 사냥만 찾아다님. 빠른 반사신경과 리스크 사랑으로 근접전 무적.",
-      en: "Lives for dangerous hunts. Quick reflexes + love of risk = unbeatable in close combat."
-    },
-    traits: {
-      ko: ["대담함", "에너지甲", "실용적", "관찰력甲"],
-      en: ["Bold AF", "Energy Bomb", "Practical", "Perceptive"]
-    },
-    quote: {
-      ko: "위험? 거기서부터 재미 시작이지.",
-      en: "Danger? That's where the fun begins."
-    },
-    hunterRole: {
-      ko: "돌격대장",
-      en: "Rush Striker"
-    },
-    halloweenBehavior: {
-      ko: "할로윈은 스릴의 축제! 귀신의 집 제일 무서운 거 찾아다니며 '이게 무섭다고?' 비웃음 ㅋㅋ 코스튬은 전날 편의점에서 급하게 사고, 파티에선 제일 위험한 게임이나 도전 찾아서 함. '야 이거 해봐!' 하며 친구들 꼬드김. 새벽까지 놀다가 다음날 '어제 개꿀잼이었음 ㅋㅋ' 하며 후회 없이 출근.",
-      en: "Halloween = THRILL FESTIVAL! Hunts down the scariest haunted houses and laughs 'That's supposed to be scary?' Buys costume last-minute at a convenience store. At parties, seeks the most dangerous games and dares. 'Yo, try THIS!' goading friends. Rages till dawn, next day: 'Last night was EPIC lol' zero regrets going to work."
     }
   },
   ISTP: {
@@ -478,38 +318,6 @@ export const characters: Record<string, Character> = {
     halloweenBehavior: {
       ko: "할로윈? 어제 아마존에서 원클릭으로 코스튬 주문 끝. 파티 가기보단 차고에서 호박에 LED 장치 개조하는 게 더 재밌음 ㅋㅋ 사탕 나눠주는 거 귀찮아서 그냥 바구니 문 앞에 두고 '알아서 가져가세요' 쪽지 붙임. 근데 몰래 집에 자동 사탕 배분 장치 만들어 놓고 CCTV로 관찰 중.",
       en: "Halloween? One-click Amazon costume order yesterday. Done. More fun modifying pumpkins with LED rigs in the garage than parties lol. Too lazy to hand out candy—leaves a bowl with 'Take one please' note. But secretly built an automated candy dispenser and monitors it via security cam for the data."
-    }
-  },
-  ESTJ: {
-    mbti: "ESTJ",
-    name: {
-      ko: "규칙왕 철수",
-      en: "Captain Protocol"
-    },
-    role: {
-      ko: "회사 꼰대 (칭찬임)",
-      en: "The Taskmaster"
-    },
-    imagePath: "",
-    bio: {
-      ko: "악마 사냥도 군대식으로 운영함. 프로토콜 안 지키면 혼남. 근데 생존율은 제일 높음 ㅋㅋ",
-      en: "Runs demon hunting like the military. Break protocol? You're in trouble. But hey, highest survival rate in the game."
-    },
-    traits: {
-      ko: ["체계적", "직설적", "책임감甲", "효율왕"],
-      en: ["Organized", "Direct", "Responsible", "Efficiency Obsessed"]
-    },
-    quote: {
-      ko: "규칙은 지키라고 있는 거야. 안 그러면 죽어.",
-      en: "Rules exist for a reason. Follow them or die. Simple."
-    },
-    hunterRole: {
-      ko: "작전 본부장",
-      en: "Operations Director"
-    },
-    halloweenBehavior: {
-      ko: "할로윈도 규칙이 있음! 사탕은 인당 2개, 시간은 저녁 6시~9시 엄수. 미리 공지 돌리고 '규칙 안 지키면 사탕 없음' 경고문 붙임 ㅋㅋ 코스튬은 실용적인 걸로 선택하고, 파티에선 타임키퍼 역할 자처. '이제 정리할 시간이야!' 외치며 효율적으로 마무리. 근데 사실 속으론 다들 재밌게 노는 거 보며 뿌듯해함.",
-      en: "Halloween HAS RULES! Candy: 2 per person. Hours: 6-9 PM sharp. Sends advance notice and posts warning: 'Break rules = No candy' lol. Chooses practical costume, volunteers as timekeeper at parties. 'Alright, cleanup time!' efficiently wrapping things up. But secretly feels warm seeing everyone have fun and enjoy the structure."
     }
   },
   ISTJ: {
