@@ -81,11 +81,11 @@ export function ResultCard({ character, onRetake, onViewGallery, language }: Res
   const fallbackImage = "https://images.unsplash.com/photo-1668617863206-5b1ad46e76f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrcG9wJTIwaWRvbCUyMGRhcmt8ZW58MXx8fHwxNzYxNDY2OTcxfDA&ixlib=rb-4.1.0&q=80&w=1080";
 
   return (
-    <div className="min-h-screen bg-[#141414]">
-      
+    <div className="min-h-screen bg-[#141414] pt-16">
+
       {/* Netflix-style modal/detail view */}
       <div className="relative">
-        
+
         {/* Hero Section with Character Illustration */}
         <div className="relative min-h-[70vh] md:h-[85vh]">
           

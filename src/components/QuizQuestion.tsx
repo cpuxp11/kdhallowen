@@ -33,28 +33,26 @@ export function QuizQuestion({
   };
 
   return (
-    <div className="min-h-screen flex flex-col px-6 pt-24 pb-12" style={{ animation: 'fadeInUp 0.5s ease-out' }}>
-      <div className="max-w-3xl w-full mx-auto space-y-8">
+    <div className="min-h-screen flex flex-col px-6 pb-12" style={{ animation: 'fadeInUp 0.5s ease-out' }}>
+      <div className="max-w-3xl w-full mx-auto space-y-6">
 
-        {/* Back button and question counter at top */}
-        <div className="flex items-center justify-between mb-4">
-          {canGoBack ? (
+        {/* Spacer for fixed navbar */}
+        <div className="h-20"></div>
+
+        {/* Back button at top - larger and more visible */}
+        {canGoBack && (
+          <div className="mb-6 relative z-[60]">
             <button
               onClick={onPrevious}
-              className="px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-sm rounded transition-all flex items-center gap-2"
+              className="px-6 py-4 bg-zinc-800 hover:bg-zinc-700 text-white text-lg rounded-xl transition-all flex items-center gap-3 shadow-lg"
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              <svg className="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
               </svg>
-              {t.quiz.back}
+              <span className="font-semibold">{t.quiz.back}</span>
             </button>
-          ) : (
-            <div></div>
-          )}
-          <div className="text-gray-400 text-sm font-medium">
-            {questionNumber} {t.quiz.of} {totalQuestions}
           </div>
-        </div>
+        )}
 
         {/* Question */}
         <div className="text-center space-y-6">
@@ -130,6 +128,11 @@ export function QuizQuestion({
               }`}
             />
           ))}
+        </div>
+
+        {/* Question counter below progress bar */}
+        <div className="text-center text-gray-400 text-lg font-medium pt-2">
+          {questionNumber} {t.quiz.of} {totalQuestions}
         </div>
       </div>
     </div>
