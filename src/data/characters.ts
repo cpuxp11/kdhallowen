@@ -42,7 +42,7 @@ export const characters: Record<string, Character> = {
       ko: "파티 주최자",
       en: "Party Organizer"
     },
-    imagePath: "/image/Joy.png",
+    imagePath: "image/Joy.png",
     bio: {
       ko: "악마 사냥을 축제로 만드는 능력자. 위기를 기회로, 전투를 파티로 바꿈 ㅋㅋ",
       en: "Turns demon hunting into a festival. Crisis? That's just a party in disguise lol"
@@ -74,7 +74,7 @@ export const characters: Record<string, Character> = {
       ko: "팀 엄마",
       en: "Team Mom"
     },
-    imagePath: "/image/Galaxybird.png",
+    imagePath: "image/Galaxybird.png",
     bio: {
       ko: "타고난 리더. 팀원들 최고로 만드는 능력자. 끈끈한 유대감으로 어둠을 박살냄.",
       en: "Born leader. Makes everyone their best self. Destroys darkness with team bonding."
@@ -106,7 +106,7 @@ export const characters: Record<string, Character> = {
       ko: "영혼 감지기",
       en: "Soul Reader"
     },
-    imagePath: "/image/Rumi.png",
+    imagePath: "image/Rumi.png",
     bio: {
       ko: "악마 의도를 미리 읽는 희귀 능력자. 몸이 아니라 영혼을 지킴.",
       en: "Rare ability to read demonic vibes before they attack. Protects souls, not just bodies."
@@ -138,7 +138,7 @@ export const characters: Record<string, Character> = {
       ko: "실험광",
       en: "Mad Scientist"
     },
-    imagePath: "/image/Jinwoo.png",
+    imagePath: "image/Jinwoo.png",
     bio: {
       ko: "정석대로 하면 재미없잖아? 실험적 전술과 기발한 함정으로 즉흥 예술 작품 만듦.",
       en: "Playing by the rules? Boring. Experimental tactics and wild traps make every fight a work of art."
@@ -170,7 +170,7 @@ export const characters: Record<string, Character> = {
       ko: "그림자 참모",
       en: "Shadow Planner"
     },
-    imagePath: "/image/Mystery.png",
+    imagePath: "image/Mystery.png",
     bio: {
       ko: "악마보다 10수 앞서감. 장기 전략으로 종말 막음. 그림자 속에서 일함.",
       en: "Always 10 steps ahead. Long-term plans prevent apocalypses before they start. Works in shadows."
@@ -202,7 +202,7 @@ export const characters: Record<string, Character> = {
       ko: "쇼 메이커",
       en: "Show Maker"
     },
-    imagePath: "/image/Romance.png",
+    imagePath: "image/Romance.png",
     bio: {
       ko: "악마 사냥을 볼거리로 만듦. 두려움 모르는 에너지와 반사신경으로 쇼 찢음.",
       en: "Turns demon hunting into entertainment. Fearless energy + instant reflexes = the show."
@@ -234,7 +234,7 @@ export const characters: Record<string, Character> = {
       ko: "미적 전사",
       en: "Aesthetic Warrior"
     },
-    imagePath: "/image/Baby.png",
+    imagePath: "image/Baby.png",
     bio: {
       ko: "악마 사냥도 예술임. 모든 공격이 우아하고 모든 함정이 작품. 아름다움과 잔인함의 공존.",
       en: "Demon hunting is art. Every strike is graceful, every trap a masterpiece. Beauty meets brutality."
@@ -266,7 +266,7 @@ export const characters: Record<string, Character> = {
       ko: "방패막이",
       en: "Shield Bearer"
     },
-    imagePath: "/image/Abby.png",
+    imagePath: "image/Abby.png",
     bio: {
       ko: "보호 본능이 팀의 심장. 모두를 무사히 집에 보냄. 팀원은 가족임.",
       en: "Protective instincts = team's heartbeat. Everyone gets home safe. Squad is family."
@@ -298,7 +298,7 @@ export const characters: Record<string, Character> = {
       ko: "무기 장인",
       en: "Weapon Crafter"
     },
-    imagePath: "/image/Mira.png",
+    imagePath: "image/Mira.png",
     bio: {
       ko: "전설의 무기 제작자. 손재주로 악마 사냥 도구 만듦. 모든 사냥에서 필수.",
       en: "Legendary weapon smith. Hands-on skills build demon-slaying tools. Essential for every hunt."
@@ -330,7 +330,7 @@ export const characters: Record<string, Character> = {
       ko: "파티 PM",
       en: "Party Project Manager"
     },
-    imagePath: "/image/Buffy.png",
+    imagePath: "image/Buffy.png",
     bio: {
       ko: "10월 1일부터 할로윈 준비 시작하는 극T. 코스튬 2벌 주문(배송 실패 대비), 사탕 120% 구매, 파티 타임테이블 엑셀 관리. 친구들 '너 때문에 파티 굴러간다' 하지만 본인은 '당연한 거 아냐?' 생각.",
       en: "Starts Halloween prep on October 1st. Orders 2 costumes from Amazon (backup plan for shipping fails), buys 120% more candy than needed, manages party timeline in Google Sheets. Friends say 'This party only works because of you' but genuinely thinks 'Isn't this just basic responsibility?'"
