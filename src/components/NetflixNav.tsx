@@ -45,7 +45,7 @@ export function NetflixNav({ onLogoClick, language, onLanguageChange }: NetflixN
               letterSpacing: '0.15em'
             }}
           >
-            DEMON HUNTER
+            HALLOWEEN HUNTER
           </span>
         </button>
 
