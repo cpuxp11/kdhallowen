@@ -35,8 +35,11 @@ export function QuizQuestion({
         {/* Question */}
         <div className="text-center space-y-6">
           <div className="text-7xl mb-6">{question.emoji}</div>
-          <h2 className="text-3xl md:text-4xl text-white">
-            {question.text}
+          <h2
+            lang={language}
+            className="text-3xl md:text-4xl text-white"
+          >
+            {question.text[language]}
           </h2>
         </div>
 
@@ -55,11 +58,11 @@ export function QuizQuestion({
             <div className="flex items-start gap-6">
               <div className="text-5xl flex-shrink-0">{question.optionA.emoji}</div>
               <div className="flex-1">
-                <div className="text-2xl text-white mb-2">
-                  {question.optionA.label}
+                <div lang={language} className="text-2xl text-white mb-2">
+                  {question.optionA.label[language]}
                 </div>
-                <div className="text-lg text-gray-400">
-                  {question.optionA.description}
+                <div lang={language} className="text-lg text-gray-400">
+                  {question.optionA.description[language]}
                 </div>
               </div>
             </div>
@@ -82,11 +85,11 @@ export function QuizQuestion({
             <div className="flex items-start gap-6">
               <div className="text-5xl flex-shrink-0">{question.optionB.emoji}</div>
               <div className="flex-1">
-                <div className="text-2xl text-white mb-2">
-                  {question.optionB.label}
+                <div lang={language} className="text-2xl text-white mb-2">
+                  {question.optionB.label[language]}
                 </div>
-                <div className="text-lg text-gray-400">
-                  {question.optionB.description}
+                <div lang={language} className="text-lg text-gray-400">
+                  {question.optionB.description[language]}
                 </div>
               </div>
             </div>

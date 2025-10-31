@@ -2361,3 +2361,16 @@ h1, h2, h3, h4, h5, h6 {
     opacity: .5;
   }
 }
+
+/* Language-specific text styles */
+[lang="ko"] {
+  word-break: keep-all;      /* Prevents breaking Korean mid-word */
+  line-height: 1.7;          /* Korean needs more vertical space */
+  letter-spacing: -0.02em;   /* Tighter spacing for Korean */
+}
+
+[lang="en"] {
+  word-break: break-word;    /* Allows English word breaking */
+  hyphens: auto;             /* Enable hyphenation */
+  line-height: 1.5;          /* Standard line height */
+}

@@ -173,7 +173,7 @@ export function ResultCard({ character, onRetake, onViewGallery, language }: Res
                   
                   {/* Character illustration */}
                   <img
-                    src={characterIllustration}
+                    src={character.imagePath || characterIllustration}
                     alt={character.name[language]}
                     className="relative z-10 w-full max-w-md mx-auto drop-shadow-2xl"
                     style={{

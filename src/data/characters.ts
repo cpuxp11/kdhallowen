@@ -259,14 +259,14 @@ export const characters: Record<string, Character> = {
   INTJ: {
     mbti: "INTJ",
     name: {
-      ko: "서씨",
-      en: "Seossi"
+      ko: "미스터리",
+      en: "Mystery"
     },
     role: {
       ko: "그림자 참모",
       en: "Shadow Planner"
     },
-    imagePath: "",
+    imagePath: "/image/Mystery.png",
     bio: {
       ko: "악마보다 10수 앞서감. 장기 전략으로 종말 막음. 그림자 속에서 일함.",
       en: "Always 10 steps ahead. Long-term plans prevent apocalypses before they start. Works in shadows."
@@ -515,14 +515,14 @@ export const characters: Record<string, Character> = {
   ISTJ: {
     mbti: "ISTJ",
     name: {
-      ko: "규칙왕 철수",
-      en: "The Organizer"
+      ko: "버피",
+      en: "Buffy"
     },
     role: {
       ko: "파티 PM",
       en: "Party Project Manager"
     },
-    imagePath: "",
+    imagePath: "/image/Buffy.png",
     bio: {
       ko: "10월 1일부터 할로윈 준비 시작하는 극T. 코스튬 2벌 주문(배송 실패 대비), 사탕 120% 구매, 파티 타임테이블 엑셀 관리. 친구들 '너 때문에 파티 굴러간다' 하지만 본인은 '당연한 거 아냐?' 생각.",
       en: "Starts Halloween prep on October 1st. Orders 2 costumes from Amazon (backup plan for shipping fails), buys 120% more candy than needed, manages party timeline in Google Sheets. Friends say 'This party only works because of you' but genuinely thinks 'Isn't this just basic responsibility?'"
